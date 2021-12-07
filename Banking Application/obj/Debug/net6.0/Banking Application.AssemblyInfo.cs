@@ -11,7 +11,9 @@
 using System;
 using System.Reflection;
 
+//Added on 7/12/21 to manually implement defense against reflection in all classes.
 [assembly: DisablePrivateReflection]
+
 [assembly: System.Reflection.AssemblyCompanyAttribute("Banking Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
